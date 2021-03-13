@@ -25,7 +25,7 @@ SECRET_KEY = 've4$qonsv!_im6fj^u2@)@&9hi^7!#jnjs(ef-kfi%!-&*e@-+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['danted4.pythonanywhere.com']
+ALLOWED_HOSTS = ['danted4.pythonanywhere.com','localhost']
 
 RENDER_SERVER_BASE_URL = 'http://localhost:3000/'
 
