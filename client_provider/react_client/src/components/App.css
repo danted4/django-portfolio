@@ -1,0 +1,139 @@
+.clr.m1{
+    background-color: #e98074;
+}
+.clr.m2{
+  background-color: #e85a4f;
+}
+.clr.m3{
+  background-color: #8d8e8a;
+}
+.clr.d1{
+  background-color: #eae7dc;
+}
+.clr.d2{
+background-color: #d8c385;
+}
+.clr.d3{
+background-color: #242424;
+}
+.clr.d4{
+  background-color: #1b1b1b;
+}
+.fnt.m1{
+  color: #e98074 !important;
+}
+.fnt.m3{
+  color: #8d8e8a !important;
+}
+.fnt.m2{
+  color: #e85a4f !important;
+}
+.bold{
+  font-style: italic;
+}
+.shadownav{
+  box-shadow: 0px 0px 25px #4e4e4e;
+}
+.fnt.d1{
+  color: #100f10;
+}
+.fnt.d2{
+  color: #1b1b1b;
+}
+.fnt.d3{
+  color: #4e4e4e;
+}
+.fnt.d4{
+  color: #fff;
+}
+.lnk-anim:hover{
+  cursor: pointer;
+}
+.margin-t-2x{
+  margin-top: 50px;
+}
+.margin-t-3x{
+  margin-top: 75px;
+}
+
+.no-padding{
+    padding: 0 !important;
+}
+
+.full-viewport-height{
+  min-height: 100vh;
+}
+.viewport-height-80{
+  min-height: 80vh;
+}
+
+.viewport-height-20{
+  min-height: 20vh;
+}
+
+.viewport-height-10{
+  min-height: 10vh;
+}
+
+.viewport-height-5{
+  min-height: 5vh;
+}
+
+.margin-t-5x{
+  margin: 10vh 0 0 0;
+}
+
+.padding-r-l{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.glow {
+  color: #fff !important;
+  text-align: left;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.hvrAnim:hover{
+  cursor: pointer;
+  box-shadow: 5px 10px 25px #000;
+}
+.no-decor{
+  text-decoration: none;
+}
+.b_b{
+  /* box-shadow: 0 0 10px #8d8e8a; */
+  /* border-bottom: 1px solid #e85a4f; */
+  margin-bottom: 1.5rem;
+}
+.b_r{
+  border-right: 1px solid #8d8e8a;
+}
+.b_l{
+  border-left: 1px solid #8d8e8a;
+}
+.b_light{
+  color:#fff;
+  font-weight: bold;
+}
+.padd_text{
+  padding: 0 1rem;
+}
+@keyframes glow{
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #99ff33, 0 0 40px #99ff33, 0 0 50px #99ff33, 0 0 60px #99ff33, 0 0 70px #99ff33;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #99ff33, 0 0 40px #99ff33, 0 0 50px #99ff33, 0 0 60px #99ff33, 0 0 70px #99ff33, 0 0 80px #99ff33;
+  }
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #99ff33, 0 0 40px #99ff33, 0 0 50px #99ff33, 0 0 60px #99ff33, 0 0 70px #99ff33;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #99ff33, 0 0 40px #99ff33, 0 0 50px #99ff33, 0 0 60px #99ff33, 0 0 70px #99ff33, 0 0 80px #99ff33;
+  }
+}
