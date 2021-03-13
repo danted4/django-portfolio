@@ -78,6 +78,8 @@ class App extends Component {
                                         else return <Redirect to="/home" />
                                     }
                                     } />
+                                    {/* Invalid Path Handling */}
+                                    <Route path="/*" component={() => {return <Redirect to="/home" /> }} />
                                 </div>
                             </div>
                         </Switch>
