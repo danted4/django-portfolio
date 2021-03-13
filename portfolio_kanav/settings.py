@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 've4$qonsv!_im6fj^u2@)@&9hi^7!#jnjs(ef-kfi%!-&*e@-+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['danted4.pythonanywhere.com']
 
