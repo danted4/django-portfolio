@@ -97,6 +97,11 @@ background-color: #242424;
   cursor: pointer;
   box-shadow: 5px 10px 25px #000;
 }
+
+.hvrAnimLight:hover{
+  cursor: pointer;
+  box-shadow: 5px 10px 25px #e85a4f;
+}
 .no-decor{
   text-decoration: none;
 }
