@@ -25,7 +25,7 @@ SECRET_KEY = 've4$qonsv!_im6fj^u2@)@&9hi^7!#jnjs(ef-kfi%!-&*e@-+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['danted4.pythonanywhere.com']
 
 RENDER_SERVER_BASE_URL = 'http://localhost:3000/'
 
@@ -130,3 +130,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
+
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
