@@ -21,6 +21,6 @@ urlpatterns = [
 
     #func file redirection
     path('provider/', include('api_basic.urls')),
-    re_path(r'[aA-zZ]*/*', include('client_provider.urls')),
+    re_path(r'[aA-zZ,/]*', include('client_provider.urls')),
     path('', include('client_provider.urls')),
 ]
