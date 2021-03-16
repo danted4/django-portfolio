@@ -5,10 +5,15 @@ import { isMobile } from 'react-device-detect';
 export default class ResumeComponent extends React.Component {
     constructor(props) {
         super(props);
+        this.state = { downloading : false };
 
     }
     componentDidMount() {
         this.props.reportToParent('/resume', '.resumemarker')
+    }
+
+    downloadHandler = () => {
+        this.setState({downloading : true}, ()=>{ setTimeout(()=>{this.setState({downloading:false})},5000) })
     }
     render() {
         return <React.Fragment>
@@ -18,9 +23,13 @@ export default class ResumeComponent extends React.Component {
                 <h2>Looking to <span className="fnt m2">hire</span>?</h2>
                 <div className={"viewport-height-10"}>
                 </div>
-                <a className="resumemarker no-decor" href="https://docs.google.com/document/d/1FQG5x-RQwq0eU1JXURGm6Y9oN-EDqP4JchN075hL540/export?format=pdf">
+                <div>
+                {this.state.downloading ? <span role="presentation" aria-hidden="true"><img className="cogSmall" src="../static/frontend/public/cog.png" /><img className="cogSmall-back" src="../static/frontend/public/cog.png" /></span> : null }
+                <a id="downloader" className="resumemarker no-decor" onClick={this.downloadHandler} href="https://docs.google.com/document/d/1FQG5x-RQwq0eU1JXURGm6Y9oN-EDqP4JchN075hL540/export?format=pdf">
                     <Button className="hvrAnim" varient="primary" >Download Resume</Button>
                 </a>
+                {this.state.downloading ? <span role="presentation" aria-hidden="true"><img className="cogSmall" src="../static/frontend/public/cog.png" /><img className="cogSmall-back" src="../static/frontend/public/cog.png" /></span> : null }
+                </div>
                 <div className={"viewport-height-10"}>
                 </div>
                 <h4>Let's get in <span className="fnt m2">touch</span>...</h4>

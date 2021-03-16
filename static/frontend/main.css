@@ -142,3 +142,44 @@ background-color: #242424;
     text-shadow: 0 0 20px #fff, 0 0 30px #99ff33, 0 0 40px #99ff33, 0 0 50px #99ff33, 0 0 60px #99ff33, 0 0 70px #99ff33, 0 0 80px #99ff33;
   }
 }
+
+
+.cog{
+  height:50px;
+  animation:cog 4s linear infinite;
+  opacity: 0.5;
+}
+.cogSmall{
+  height:20px;
+  animation:cog 4s linear infinite;
+  opacity: 0.5;
+}
+.cogSmall-back{
+  height:30px;
+  margin-right:0 10px;
+  opacity: 0.7;
+  margin:0 0 15px 0;
+  animation:cog-back 4s linear infinite;
+}
+#downloader{
+  margin: 0 10px;
+}
+.cog-back{
+  height:70px;
+  opacity: 0.7;
+  margin:0 0 25px 0;
+  animation:cog-back 4s linear infinite;
+}
+
+@keyframes cog{
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes cog-back{
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}

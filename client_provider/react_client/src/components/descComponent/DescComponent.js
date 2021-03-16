@@ -51,8 +51,12 @@ export default class DescComponent extends React.Component {
         </h4>
         <br />
         <h6 className="fnt d3 homemarker"> I am a <span className="lnk-anim fnt m2" onMouseEnter={() => { this.toggleHoverState(true) }} >javascript full stack</span> developer.</h6>
-        {this.state.showFullStack && !isMobileOnly ? showStackNodes() : showMobileStackNodes()}
+        {!this.state.showFullStack ? <div className="viewport-height-20"> {isMobile ? <span className="fnt m2"><div>reactJs</div><div>expressJs</div><div>mongoDB</div><div>nodeJs</div></span> : null} </div> : this.state.showFullStack && !isMobileOnly ? showStackNodes() : showMobileStackNodes()}
         <br />
+        <div><img className="cog" src="../static/frontend/public/cog.png"/>
+        <img className="cog-back" style={{'margin-left':'-5px'}} src="../static/frontend/public/cog.png"/>
+        {/* <img className="cog" style={{'margin-left':'-7px'}} src="./cog.png"/> */}
+        </div>
       </div>
 
     </React.Fragment>
