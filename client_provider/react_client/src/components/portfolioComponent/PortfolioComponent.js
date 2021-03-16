@@ -1,4 +1,5 @@
 import React from 'react';
+import { isMobile } from 'react-device-detect';
 
 export default class PortfolioComponent extends React.Component {
     constructor(props) {
