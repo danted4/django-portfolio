@@ -13,9 +13,9 @@ export const showStackNodes = () => {
             </div>
             <div style={{ borderTop: '2px solid #303c8c' ,borderLeft: '2px solid #303c8c' }} className="col-lg-1 col-md-1 col-xs-1 viewport-height-5 ">
             </div>
-            <div style={{ borderTop: '2px solid #303c8c' ,borderLeft: '2px solid #303c8c',borderRight: '1px solid #303c8c' }} className="col-lg-1 col-md-1 col-xs-1 viewport-height-5 ">
+            <div style={{ borderTop: '2px solid #303c8c' ,borderLeft: '2px solid #303c8c' }} className="col-lg-1 col-md-1 col-xs-1 viewport-height-5 ">
             </div>
-            <div style={{ borderTop: '2px solid #303c8c' ,borderRight: '2px solid #303c8c',borderLeft: '1px solid #303c8c' }} className="col-lg-1 col-md-1 col-xs-1 viewport-height-5 ">
+            <div style={{ borderTop: '2px solid #303c8c' ,borderRight: '2px solid #303c8c' }} className="col-lg-1 col-md-1 col-xs-1 viewport-height-5 ">
             </div>
             <div style={{ borderTop: '2px solid #303c8c' ,borderRight: '2px solid #303c8c' }} className="col-lg-1 col-md-1 col-xs-1 viewport-height-5 ">
             </div>
@@ -32,7 +32,7 @@ export const showStackNodes = () => {
                 nodeJS
             </div>
             <div className="col-lg-1 col-md-1 col-xs-1 viewport-height-5 fnt m2 text-left">
-                django3
+                
             </div>
             <div className="col-lg-1 col-md-1 col-xs-1 viewport-height-5 fnt m2 text-left">
                 expressJS

@@ -12,7 +12,7 @@ const TOPNAV = {
     portfolio: '/portfolio',
     about: '/about'
 }
-const activeRt = 'fnt d4 bold glow';
+const activeRt = isMobile ? 'fnt d4 bold' : 'fnt d4 bold glow';
 const regularRt = 'fnt m2';
 
 class HeaderComponent extends React.Component {

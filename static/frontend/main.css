@@ -44,7 +44,7 @@ background-color: #242424;
   color: #4e4e4e;
 }
 .fnt.d4{
-  color: #fff;
+  color: #fff !important;
 }
 .lnk-anim:hover{
   cursor: pointer;
@@ -89,7 +89,6 @@ background-color: #242424;
 }
 
 .glow {
-  color: #fff !important;
   text-align: left;
   animation: glow 1s ease-in-out infinite alternate;
 }
