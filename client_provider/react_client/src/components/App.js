@@ -73,13 +73,11 @@ class App extends Component {
                                 <div className={"col-xs-12 col-md-12 col-lg-12 margin-t-1x"}>
                                     <Route exact path="/" component={() => {return <Redirect to="/home" /> }} />
                                     <Route path="/home" component={() => { if(this.props.appState.reducer1.init === false) this.props.confirmInit(); return <HomeComponent reportToMaster={this.trackComponentMountings} />}} />
-                                    <Route path={['/portfolio', '/resume', '/about']} component={() => {
+                                    <Route path='*' component={() => {
                                         if(this.props.appState.reducer1.init) return <HomeComponent reportToMaster={this.trackComponentMountings} />
                                         else return <Redirect to="/home" />
                                     }
                                     } />
-                                    {/* Invalid Path Handling */}
-                                    {/* <Route path="/*" component={() => {return <Redirect to="/home" /> }} /> */}
                                 </div>
                             </div>
                         </Switch>
