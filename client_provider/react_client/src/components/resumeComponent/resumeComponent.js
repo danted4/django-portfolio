@@ -38,13 +38,13 @@ export default class ResumeComponent extends React.Component {
                 <div className={isMobile ? "" : "row no-gutters"}>
                     {isMobile ? null : <div className="col-lg-3"></div>}
                     <div style={isMobile ? { display: 'inline-block' } : {}} className={isMobile ? "" : "col-lg-2 col-xs-2"}>
-                        <a className="no-decor" target="_new" rel="noopener" href="https://www.linkedin.com/in/sharma-kanav"> <img className="hvrAnim" src="../static/frontend/public/ln.png" /></a>
+                        <a className="no-decor" target="_new" rel="noopener" href="https://www.linkedin.com/in/sharma-kanav"> <img className="hvrAnim curved" src="../static/frontend/public/ln.png" /></a>
                     </div>
                     <div style={isMobile ? { display: 'inline-block', margin: '0px 5vw' } : {}} className={isMobile ? "" : "col-lg-2 col-xs-2"}>
-                        <a className="no-decor" target="_new" rel="noopener" href="https://www.facebook.com/Danted4"><img className="hvrAnim" src="../static/frontend/public/fb.png" /></a>
+                        <a className="no-decor" target="_new" rel="noopener" href="https://www.facebook.com/Danted4"><img className="hvrAnim curved" src="../static/frontend/public/fb.png" /></a>
                     </div>
                     <div style={isMobile ? { display: 'inline-block' } : {}} className={isMobile ? "" : "col-lg-2 col-xs-2"}>
-                        <a className="no-decor" target="_new" rel="noopener" href="https://twitter.com/Kanav94sharma"> <img className="hvrAnim" src="../static/frontend/public/tw.png" /></a>
+                        <a className="no-decor" target="_new" rel="noopener" href="https://twitter.com/Kanav94sharma"> <img className="hvrAnim curved" src="../static/frontend/public/tw.png" /></a>
                     </div>
                     {isMobile ? null : <div className="col-lg-3"></div>}
                 </div>

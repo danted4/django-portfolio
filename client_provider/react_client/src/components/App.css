@@ -92,6 +92,9 @@ background-color: #242424;
   text-align: left;
   animation: glow 1s ease-in-out infinite alternate;
 }
+.curved{
+  border-radius: 1rem;
+}
 .hvrAnim:hover{
   cursor: pointer;
   box-shadow: 5px 10px 25px #000;
