@@ -25,7 +25,7 @@ export default class ResumeComponent extends React.Component {
                 </div>
                 <div>
                 {this.state.downloading ? <span role="presentation" aria-hidden="true"><img className="cogSmall" src="../static/frontend/public/cog.png" /><img className="cogSmall-back" src="../static/frontend/public/cog.png" /></span> : null }
-                <a id="downloader" className="resumemarker no-decor" onClick={this.downloadHandler} href="https://docs.google.com/document/d/1FQG5x-RQwq0eU1JXURGm6Y9oN-EDqP4JchN075hL540/export?format=pdf">
+                <a id="downloader" className="resumemarker no-decor" onClick={this.downloadHandler} href="https://docs.google.com/document/d/1FQG5x-RQwq0eU1JXURGm6Y9oN-EDqP4JchN075hL540/export?format=pdf" download>
                     <Button className="hvrAnim" varient="primary" >Download Resume</Button>
                 </a>
                 {this.state.downloading ? <span role="presentation" aria-hidden="true"><img className="cogSmall" src="../static/frontend/public/cog.png" /><img className="cogSmall-back" src="../static/frontend/public/cog.png" /></span> : null }

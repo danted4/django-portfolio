@@ -25,7 +25,7 @@ export default class PortfolioComponent extends React.Component {
                     <a className="portfoliomarker no-decor" target="_new" rel="noopener" href="https://danted4.github.io/jsGaming/"><img className="hvrAnimLight" height='200' src="../static/frontend/public/games.jpg" /></a>
                 }
                 <div className={"viewport-height-5"}></div>
-                <h1>More Coming Soon ...</h1>
+                <h3>3d Project Coming Soon ...</h3>
             </div>
         </React.Fragment>
     }
