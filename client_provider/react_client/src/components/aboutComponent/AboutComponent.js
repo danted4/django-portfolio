@@ -40,18 +40,15 @@ export default class AboutComponent extends React.Component{
                 </div>
                 <div className={isMobile ?'aboutmarker col-lg-6 col-sm-6 col-xs-6 text-center b_b' :'aboutmarker col-lg-6 col-sm-6 col-xs-6 text-center b_l'}>
                     <h3><span className="fnt m2">this</span>.website()</h3>
-                    <p className={isMobile ? 'padd_text text-justify':''}>The stack used to build this website is
+                    <p className={isMobile ? 'padd_text text-justify':''}>The stack used to build this website is 
                         {isMobile ? ' ' : <br/> }
                     <span className="b_light">Django </span> which is hosted on pythonanywhere cloud
                     {isMobile ? null : <br/> }
                     and acts as a container for the client which
                     {isMobile ? null : <br/> }
                     is built in <span className="b_light">React. </span>
-                    This is the main client app running inside django.
-                    {isMobile ? null : <br/> }
-                    <span className="b_light">Redux and Custom Middlewere </span>
-                    have been used to make api calls to {isMobile ? null : <br/> } 
-                    stored data on django. This project has been 
+                    This is the main client app running inside django. 
+                    {isMobile ? null : <br/> }This project has been 
                     used as {isMobile ? null : <br/> }an exploratory case, in order to develop my
                     knowledge on django.</p>
                 </div>
